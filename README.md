@@ -3,7 +3,5 @@
 _Changing password_
 
 <blockquote>
-```bash
 passwd
-```
 </blockquote>
