@@ -49,3 +49,15 @@ ls -l
 ls -al
 ls -a /usr/folder
 ```
+
+---
+
+**ls komutu –l seçeneği ile çalıştırıldığında dosya ve dizinler hakkında ayrıntılı bilgi edinilir.**
+
+drwxr-xr-x 2 root root 4096 Apr 24 2018 home  
+drwxr-xr-x 1 root root 4096 May 23 2017 lib  
+drwxr-xr-x 2 root root 4096 Feb 19 01:15 lib64  
+drwxr-xr-x 2 root root 4096 Feb 19 01:14 media  
+drwxr-xr-x 2 root root 4096 Feb 19 01:14 mnt
+
+[Ayrıntılı Bilgi İçin](https://www.enesusta.tech/articles/linux-file-system-permissons)
