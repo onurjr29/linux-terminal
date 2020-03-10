@@ -60,4 +60,8 @@ drwxr-xr-x 2 root root 4096 Feb 19 01:15 lib64
 drwxr-xr-x 2 root root 4096 Feb 19 01:14 media  
 drwxr-xr-x 2 root root 4096 Feb 19 01:14 mnt
 
+Dosya ve dizin hakları chown, chgrp ve chmod komutları ile düzenlenebilir.  
+chown, dosya ya da dizinin sahibini değiştirmek için kullanılır. Komutun genel yapısı;  
+chown &lt;kullanıcı adı|kullanıcı kodu&gt; &lt;dosya/dizin adı&gt;
+
 [Ayrıntılı Bilgi İçin](https://www.enesusta.tech/articles/linux-file-system-permissons)
