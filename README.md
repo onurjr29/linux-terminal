@@ -1,10 +1,14 @@
-# Linux Terminal Commands
+# Linux Terminal Komutları
 
-&lt;command&gt; &lt;option&gt; &lt;arguments&gt;
+&lt;Komut&gt; &lt;seçenek&gt; &lt;argüman&gt;
 
-## Some Commands
+**Komutların kullanma kılavuzu için**
 
-**Changing password**
+man &lt;komut&gt;
+
+## Bazı Komutların Kullanımı
+
+**Şifre değiştirme**
 
 ```shell
 passwd
@@ -12,7 +16,7 @@ passwd
 
 ---
 
-**For System Exit**
+**Sistemden çıkma**
 
 ```shell
 exit or
@@ -23,7 +27,7 @@ Control + D
 
 ---
 
-**System Variables**
+**Sistem değişkenleri**
 
 ```shell
 set
@@ -31,13 +35,13 @@ set
 
 ---
 
-**List files and folders**
+**Dosya ve klasörleri listeleme**
 
 ```shell
 ls
 ```
 
-_some options_
+_Bazı seçenekler_
 
 ```shell
 ls -a
