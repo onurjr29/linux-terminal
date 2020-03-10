@@ -4,8 +4,11 @@
 
 ## Some Commands
 
-**Changing password**  
-_passwd_
+**Changing password**
+
+```shell
+passwd
+```
 
 ---
 
@@ -24,4 +27,21 @@ Control + D
 
 ```shell
 set
+```
+
+---
+
+**List files and folders**
+
+```shell
+ls
+```
+
+_some options_
+
+```shell
+ls -a
+ls -l
+ls -al
+ls -a /usr/folder
 ```
