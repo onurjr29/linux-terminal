@@ -2,15 +2,13 @@
 
 _Changing password_
 
-<blockquote>
-<em style="color:red">passwd</em>
-</blockquote>
-<hr>
+_passwd_
 
+-
 _For System Exit_
 
-<span style="color:red">exit</span> or
-<em style="color:red">logout</em> or
-<em style="color:red">Control + D</em>
+_exit_ or
+_logout_ or
+_Control + D_
 
-<hr>
+-
