@@ -3,5 +3,15 @@
 _Changing password_
 
 <blockquote>
-passwd
+<em>passwd</em>
 </blockquote>
+<hr>
+
+_For System Exit_
+
+<blockquote>
+<em>exit</em> or
+<em>logout</em> or
+<em>Control + D</em>
+</blockquote>
+<hr>
