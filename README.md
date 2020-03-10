@@ -9,7 +9,7 @@ _Changing password_
 
 _For System Exit_
 
-<em style="color:red">exit</em> or
+<p style="color:red">exit</p> or
 <em style="color:red">logout</em> or
 <em style="color:red">Control + D</em>
 
