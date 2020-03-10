@@ -1,14 +1,13 @@
 # Linux terminal commands
 
-_Changing password_
-
+**Changing password**
 _passwd_
 
--
-_For System Exit_
+---
 
+**For System Exit**
 _exit_ or
 _logout_ or
 _Control + D_
 
--
+---
