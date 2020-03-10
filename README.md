@@ -1,7 +1,9 @@
 # Linux terminal commands
 
-## Changing password
+_Changing password_
 
+<blockquote>
 ```bash
 passwd
 ```
+</blockquote>
