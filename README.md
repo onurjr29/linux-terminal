@@ -74,17 +74,23 @@ chown &lt;kullanıcı adı|kullanıcı kodu&gt; &lt;dosya/dizin adı&gt;
 cd /tmp
 ```
 
+---
+
 **_mkdir_ dizin yaratmayı sağlar.**
 
 ```shell
 mkdir yeniDosya
 ```
 
+---
+
 **_cp_ dosya ya da dizin kopyalama işlemini gerçekleştirir.**
 
 ```shell
 cp yeni.txt copya.txt
 ```
+
+---
 
 **_mv_ dosya ya da dizinleri taşıma ya da isim değiştirme işlemini gerçekleştirir.**
 
@@ -100,12 +106,16 @@ mv kek.txt su.txt
 'kek.txt' isimli dosyayı 'su.txt' olarak yeniden adlandırır.
 ```
 
+---
+
 **_rm_ dosya ya da dizin silme işlemini gerçekleştirir.**
 
 ```shell
 rm ogrenciler.txt
 'ogrenciler.txt' dosyasını siler.
 ```
+
+---
 
 **_ln_ dosya ya da dizinlerin bağlantılarını oluşturur.**
 
