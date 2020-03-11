@@ -112,12 +112,26 @@ mv kek.txt su.txt
 
 ```shell
 rm ogrenciler.txt
+
 'ogrenciler.txt' dosyasını siler.
+```
+
+```shell
+rm -Rf /home/odev/yeni
+
+'yeni' dizinini siler.
+'-R' alt dizinleri silmek için,
+'f' silme onayı almadan silmek icin kullanılır.
 ```
 
 ---
 
 **_ln_ dosya ya da dizinlerin bağlantılarını oluşturur.**
+
+```shell
+
+ln odev.txt sinav.txt
+```
 
 ```shell
 ln –s /home/odev /tmp/sinav
