@@ -65,3 +65,29 @@ chown, dosya ya da dizinin sahibini değiştirmek için kullanılır. Komutun ge
 chown &lt;kullanıcı adı|kullanıcı kodu&gt; &lt;dosya/dizin adı&gt;
 
 [Ayrıntılı Bilgi İçin](https://www.enesusta.tech/articles/linux-file-system-permissons)
+
+---
+
+**cd dizinler arasında geçişi sağlar.**
+
+```shell
+cd /tmp
+```
+
+**mkdir dizin yaratmayı sağlar.**
+
+```shell
+mkdir yeniDosya
+```
+
+**mv dosya ya da dizinleri taşıma ya da isim değiştirme işlemini gerçekleştirir.**
+
+```shell
+mv yeni.txt /home/yeni
+'yeni.txt' dosyasını '/home/yeni' dizinine taşır.
+```
+
+```shell
+mv kek.txt su.txt
+'kek.txt' isimli dosyayı 'su.txt olarak yeniden adlandırır.
+```
