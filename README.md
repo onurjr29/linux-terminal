@@ -171,3 +171,11 @@ cat ilk.txt ikinci.txt >> hedef.txt
 
 'ilk.txt' ve 'ikinci.txt' içeriğini birleştirip 'hedef.txt' dosyasının sonuna ekler.
 ```
+
+---
+
+**_cmp_ iki dosyayı karşılaştırır ve farklılıklarını belirtir.**
+
+```shell
+cmp ilk.txt ogrenciler.txt
+```
