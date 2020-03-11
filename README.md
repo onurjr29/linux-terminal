@@ -52,7 +52,7 @@ ls -a /usr/folder
 
 ---
 
-**ls komutu –l seçeneği ile çalıştırıldığında dosya ve dizinler hakkında ayrıntılı bilgi edinilir.**
+**_ls_ komutu –l seçeneği ile çalıştırıldığında dosya ve dizinler hakkında ayrıntılı bilgi edinilir.**
 
 drwxr-xr-x 2 root root 4096 Apr 24 2018 home  
 drwxr-xr-x 1 root root 4096 May 23 2017 lib  
@@ -68,26 +68,49 @@ chown &lt;kullanıcı adı|kullanıcı kodu&gt; &lt;dosya/dizin adı&gt;
 
 ---
 
-**cd dizinler arasında geçişi sağlar.**
+**_cd_ dizinler arasında geçişi sağlar.**
 
 ```shell
 cd /tmp
 ```
 
-**mkdir dizin yaratmayı sağlar.**
+**_mkdir_ dizin yaratmayı sağlar.**
 
 ```shell
 mkdir yeniDosya
 ```
 
-**mv dosya ya da dizinleri taşıma ya da isim değiştirme işlemini gerçekleştirir.**
+**_cp_ dosya ya da dizin kopyalama işlemini gerçekleştirir.**
+
+```shell
+cp yeni.txt copya.txt
+```
+
+**_mv_ dosya ya da dizinleri taşıma ya da isim değiştirme işlemini gerçekleştirir.**
 
 ```shell
 mv yeni.txt /home/yeni
+
 'yeni.txt' dosyasını '/home/yeni' dizinine taşır.
 ```
 
 ```shell
 mv kek.txt su.txt
-'kek.txt' isimli dosyayı 'su.txt olarak yeniden adlandırır.
+
+'kek.txt' isimli dosyayı 'su.txt' olarak yeniden adlandırır.
+```
+
+**_rm_ dosya ya da dizin silme işlemini gerçekleştirir.**
+
+```shell
+rm ogrenciler.txt
+'ogrenciler.txt' dosyasını siler.
+```
+
+**_ln_ dosya ya da dizinlerin bağlantılarını oluşturur.**
+
+```shell
+ln –s /home/odev /tmp/sinav
+
+'/home/odev' dizinine '/tmp/sinav' olarak bir bağlantı oluşturur.
 ```
