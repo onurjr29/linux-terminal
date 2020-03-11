@@ -27,6 +27,14 @@ Control + D
 
 ---
 
+**_clear_ Terminali temizler**
+
+```shell
+clear
+```
+
+---
+
 **Sistem değişkenleri**
 
 ```shell
@@ -48,6 +56,11 @@ ls -a
 ls -l
 ls -al
 ls -a /usr/folder
+```
+
+```shell
+'-a' bütün dosyaları görüntülemek için
+'-l' dosyaları ayrıntılı liste şeklinde görüntülemek için kullanılır.
 ```
 
 ---
@@ -137,4 +150,24 @@ ln odev.txt sinav.txt
 ln –s /home/odev /tmp/sinav
 
 '/home/odev' dizinine '/tmp/sinav' olarak bir bağlantı oluşturur.
+```
+
+---
+
+**_cat_ dosyanın içeriğini görüntülemek için veya içeriğini başka bir dosyaya kopyalamak için kullanılır.**
+
+```shell
+cat ogrenciler.txt
+```
+
+```shell
+cat ilk.txt > yeni.txt
+
+'ilk.txt' içeriğini 'yeni.txt' içine kopyalar.
+```
+
+```shell
+cat ilk.txt ikinci.txt >> hedef.txt
+
+'ilk.txt' ve 'ikinci.txt' içeriğini birleştirip 'hedef.txt' dosyasının sonuna ekler.
 ```
