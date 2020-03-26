@@ -179,3 +179,19 @@ cat ilk.txt ikinci.txt >> hedef.txt
 ```shell
 cmp ilk.txt ogrenciler.txt
 ```
+
+**_df_ Bağlanılmış disk bölümlerinin boyut ve doluluk bilgilerini görüntüler.**
+
+**_diff_ İki metin dosyasını karşılaştırır.**
+
+```shell
+diff metin1 metin2
+```
+
+**_du_ Dosya ve dizinlerin disk kullanım alanlarını görüntüler.**
+
+**_`(ters tırnak)_ karakter dizini içerisinde komut çalıştırılmasını sağlar.**
+
+```shell
+echo "Bugünün tarihi `date`"
+```
