@@ -195,3 +195,17 @@ diff metin1 metin2
 ```shell
 echo "Bugünün tarihi `date`"
 ```
+
+**_find_ Dosya ya da dizin arama işlemlerini gerçekleştirir.**
+
+```shell
+find /etc -name "host*"
+```
+
+**_head_, _tail_ Dosyaların ilk ya da son bölümlerinin belirtilen sayıdaki satırlarını görüntüler. Herhangi bir seçenek girilmediğinde 10 satır görüntülenir.**
+
+**_host_ Girilen IP/DNS (alan adı kaydı) bilgisinin karşılığını verir.**
+
+```shell
+host www.turkaytunc.com
+```
