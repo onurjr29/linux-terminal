@@ -180,7 +180,11 @@ cat ilk.txt ikinci.txt >> hedef.txt
 cmp ilk.txt ogrenciler.txt
 ```
 
+---
+
 **_df_ Bağlanılmış disk bölümlerinin boyut ve doluluk bilgilerini görüntüler.**
+
+---
 
 **_diff_ İki metin dosyasını karşılaştırır.**
 
@@ -188,7 +192,11 @@ cmp ilk.txt ogrenciler.txt
 diff metin1 metin2
 ```
 
+---
+
 **_du_ Dosya ve dizinlerin disk kullanım alanlarını görüntüler.**
+
+---
 
 **_`(ters tırnak)_ karakter dizini içerisinde komut çalıştırılmasını sağlar.**
 
@@ -196,13 +204,19 @@ diff metin1 metin2
 echo "Bugünün tarihi `date`"
 ```
 
+---
+
 **_find_ Dosya ya da dizin arama işlemlerini gerçekleştirir.**
 
 ```shell
 find /etc -name "host*"
 ```
 
+---
+
 **_head_, _tail_ Dosyaların ilk ya da son bölümlerinin belirtilen sayıdaki satırlarını görüntüler. Herhangi bir seçenek girilmediğinde 10 satır görüntülenir.**
+
+---
 
 **_host_ Girilen IP/DNS (alan adı kaydı) bilgisinin karşılığını verir.**
 
