@@ -27,7 +27,7 @@ Control + D
 
 ---
 
-**_clear_ Terminali temizler**
+**_clear_** Terminali temizler.
 
 ```shell
 clear
@@ -35,7 +35,7 @@ clear
 
 ---
 
-**Sistem değişkenleri**
+Sistem değişkenleri
 
 ```shell
 set
@@ -43,13 +43,13 @@ set
 
 ---
 
-**Dosya ve klasörleri listeleme**
+Dosya ve klasörleri listeleme
 
 ```shell
 ls
 ```
 
-_Bazı seçenekler_
+**Bazı seçenekler**
 
 ```shell
 ls -a
@@ -65,7 +65,7 @@ ls -a /usr/folder
 
 ---
 
-**_ls_ komutu –l seçeneği ile çalıştırıldığında dosya ve dizinler hakkında ayrıntılı bilgi edinilir.**
+**_ls_** komutu –l seçeneği ile çalıştırıldığında dosya ve dizinler hakkında ayrıntılı bilgi edinilir.
 
 drwxr-xr-x 2 root root 4096 Apr 24 2018 home  
 drwxr-xr-x 1 root root 4096 May 23 2017 lib  
