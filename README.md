@@ -223,3 +223,17 @@ find /etc -name "host*"
 ```shell
 host www.turkaytunc.com
 ```
+
+---
+
+**_ps_ komutu çalışan uygulamaların uygulama numaralarını (PID) görüntüler. _kill_ komutu PID’si ile belirtilen uygulamayı sonlandırır.Kill komutunda sonlandırmayı zorlamak için _-9_ parametresi kullanılır.**
+
+```shell
+ps
+```
+
+```shell
+kill -9 1245
+```
+
+---
