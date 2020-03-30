@@ -81,7 +81,7 @@ chown &lt;kullanıcı adı|kullanıcı kodu&gt; &lt;dosya/dizin adı&gt;
 
 ---
 
-**_cd_ dizinler arasında geçişi sağlar.**
+**_cd_** dizinler arasında geçişi sağlar.
 
 ```shell
 cd /tmp
@@ -89,7 +89,7 @@ cd /tmp
 
 ---
 
-**_mkdir_ dizin yaratmayı sağlar.**
+**_mkdir_** dizin yaratmayı sağlar.
 
 ```shell
 mkdir yeniDosya
@@ -97,7 +97,7 @@ mkdir yeniDosya
 
 ---
 
-**_cp_ dosya ya da dizin kopyalama işlemini gerçekleştirir.**
+**_cp_** dosya ya da dizin kopyalama işlemini gerçekleştirir.
 
 ```shell
 cp yeni.txt copya.txt
@@ -105,7 +105,7 @@ cp yeni.txt copya.txt
 
 ---
 
-**_mv_ dosya ya da dizinleri taşıma ya da isim değiştirme işlemini gerçekleştirir.**
+**_mv_** dosya ya da dizinleri taşıma ya da isim değiştirme işlemini gerçekleştirir.
 
 ```shell
 mv yeni.txt /home/yeni
@@ -121,7 +121,7 @@ mv kek.txt su.txt
 
 ---
 
-**_rm_ dosya ya da dizin silme işlemini gerçekleştirir.**
+**_rm_** dosya ya da dizin silme işlemini gerçekleştirir.
 
 ```shell
 rm ogrenciler.txt
@@ -139,7 +139,7 @@ rm -Rf /home/odev/yeni
 
 ---
 
-**_ln_ dosya ya da dizinlerin bağlantılarını oluşturur.**
+**_ln_** dosya ya da dizinlerin bağlantılarını oluşturur.
 
 ```shell
 
@@ -154,7 +154,7 @@ ln –s /home/odev /tmp/sinav
 
 ---
 
-**_cat_ dosyanın içeriğini görüntülemek için veya içeriğini başka bir dosyaya kopyalamak için kullanılır.**
+**_cat_** dosyanın içeriğini görüntülemek için veya içeriğini başka bir dosyaya kopyalamak için kullanılır.
 
 ```shell
 cat ogrenciler.txt
@@ -174,7 +174,7 @@ cat ilk.txt ikinci.txt >> hedef.txt
 
 ---
 
-**_cmp_ iki dosyayı karşılaştırır ve farklılıklarını belirtir.**
+**_cmp_** iki dosyayı karşılaştırır ve farklılıklarını belirtir.
 
 ```shell
 cmp ilk.txt ogrenciler.txt
@@ -182,11 +182,11 @@ cmp ilk.txt ogrenciler.txt
 
 ---
 
-**_df_ Bağlanılmış disk bölümlerinin boyut ve doluluk bilgilerini görüntüler.**
+**_df_** Bağlanılmış disk bölümlerinin boyut ve doluluk bilgilerini görüntüler.
 
 ---
 
-**_diff_ İki metin dosyasını karşılaştırır.**
+**_diff_** İki metin dosyasını karşılaştırır.
 
 ```shell
 diff metin1 metin2
@@ -194,11 +194,11 @@ diff metin1 metin2
 
 ---
 
-**_du_ Dosya ve dizinlerin disk kullanım alanlarını görüntüler.**
+**_du_** Dosya ve dizinlerin disk kullanım alanlarını görüntüler.
 
 ---
 
-**_`(ters tırnak)_ karakter dizini içerisinde komut çalıştırılmasını sağlar.**
+**_`(ters tırnak)_** karakter dizini içerisinde komut çalıştırılmasını sağlar.
 
 ```shell
 echo "Bugünün tarihi `date`"
@@ -206,7 +206,7 @@ echo "Bugünün tarihi `date`"
 
 ---
 
-**_find_ Dosya ya da dizin arama işlemlerini gerçekleştirir.**
+**_find_** Dosya ya da dizin arama işlemlerini gerçekleştirir.
 
 ```shell
 find /etc -name "host*"
@@ -214,11 +214,11 @@ find /etc -name "host*"
 
 ---
 
-**_head_, _tail_ Dosyaların ilk ya da son bölümlerinin belirtilen sayıdaki satırlarını görüntüler. Herhangi bir seçenek girilmediğinde 10 satır görüntülenir.**
+**_head_, _tail_** Dosyaların ilk ya da son bölümlerinin belirtilen sayıdaki satırlarını görüntüler. Herhangi bir seçenek girilmediğinde 10 satır görüntülenir.
 
 ---
 
-**_host_ Girilen IP/DNS (alan adı kaydı) bilgisinin karşılığını verir.**
+**_host_** Girilen IP/DNS (alan adı kaydı) bilgisinin karşılığını verir.
 
 ```shell
 host www.turkaytunc.com
@@ -226,7 +226,7 @@ host www.turkaytunc.com
 
 ---
 
-**_ps_ komutu çalışan uygulamaların uygulama numaralarını (PID) görüntüler. _kill_ komutu PID’si ile belirtilen uygulamayı sonlandırır.Kill komutunda sonlandırmayı zorlamak için _-9_ parametresi kullanılır.**
+**_ps_** komutu çalışan uygulamaların uygulama numaralarını (PID) görüntüler. **_kill_** komutu PID’si ile belirtilen uygulamayı sonlandırır.Kill komutunda sonlandırmayı zorlamak için **_-9_** parametresi kullanılır.
 
 ```shell
 ps
